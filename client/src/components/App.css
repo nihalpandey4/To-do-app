@@ -6,7 +6,7 @@ body{
 .App{
  background-color:#3f3160;
  min-height: 80vh;
- margin: 60px auto;
- width: 400px;
- padding-bottom: 20px;
+ margin: 8vh auto;
+ width: 60vmin;
+ padding-bottom: 2vh;
 }

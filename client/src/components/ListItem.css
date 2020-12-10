@@ -1,34 +1,35 @@
 .list{
     color: #fff;
-    width:350px;
+    width:53vmin;
     background-color:#bf07ac;
-    height:50px;
+    height:8vh;
     margin:20px auto;
     border-radius:10px;
 }
 
 .list p{
-    padding: 16px;
+    padding: 2.2vh 2.8vmin;
     position: relative;
     transition: ease-in-out;
 }
 
 .list p span{
     position:absolute;
-    right:10px;
+    right:2vmin;
+    top: 2.2vh;
     cursor:pointer;
 }
 
 .faicons{
-    margin: 0 5px;
-    font-size:15px;
+    margin: 0 2vmin;
+    font-size:2.2vh;
 }
 
 .list p input{
     background-color:transparent;
     border:0;
     color:#fff;
-    font-size:18px;
+    font-size:2.7vh;
 }
 
 .list p input:focus{
