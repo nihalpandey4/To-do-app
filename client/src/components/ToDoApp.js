@@ -2,12 +2,12 @@ import React from "react";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faTrash} from "@fortawesome/free-solid-svg-icons";
 
-import "./App.css";
+import "./ToDoApp.css";
 import ListItem from "./ListItem";
 
 library.add(faTrash);
 
-class App extends React.Component {
+class ToDoApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -53,7 +53,7 @@ class App extends React.Component {
 
   render = () => {
     return (
-      <div className="App">
+      <React.Fragment>
         <header>
           <form id="to-do-form" onSubmit={(e)=>this.handleSubmit(e)}>
             <input
@@ -68,9 +68,9 @@ class App extends React.Component {
           </form>
         </header>
         <ListItem items={this.state.items} deleteItem = {this.deleteItem} updateItem={this.updateItem} />
-      </div>
+      </React.Fragment>
     );
   };
 }
 
-export default App;
+export default ToDoApp;
