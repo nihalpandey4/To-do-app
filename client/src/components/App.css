@@ -4,7 +4,8 @@ body{
 
 .App{
  background-color:#3f3160;
- height: 500px;
+ min-height: 500px;
  margin: 60px auto;
  width: 400px;
+ padding-bottom: 20px;
 }

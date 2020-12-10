@@ -10,6 +10,7 @@
 .list p{
     padding: 16px;
     position: relative;
+    transition: ease-in-out;
 }
 
 .list p span{
